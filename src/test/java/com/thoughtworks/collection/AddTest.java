@@ -20,6 +20,7 @@ public class AddTest {
         assertThat(add.getSumOfEvens(rightBorder, leftBorder)).isEqualTo(30);
     }
 
+
     @Test
     public void should_get_triple_and_add_two() {
         //求数组中每个元素的3倍加2的和
